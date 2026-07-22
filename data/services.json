@@ -1,0 +1,140 @@
+{
+  "navigation": {
+    "logo": "/assets/Logo/Logo_text_reverse_BW.svg",
+    "links": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "NEWS", "href": "/news" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "title": "SERVICES",
+    "subtitle": "We fuse visionary design with unbreakable code — delivering digital experiences that endure."
+  },
+  "whatWeDo": {
+    "title": "WHAT WE DO",
+    "description": "WE CRAFT INTUITIVE EXPERIENCES THAT FEEL EFFORTLESS AND ENGINEER FLAWLESS SYSTEMS THAT PERFORM RELENTLESSLY."
+  },
+  "stickyCards": [
+    {
+      "category": "RESEARCH & STRATEGY",
+      "description": "We deliver creative and authentic strategies that empower design-driven insights, personality, and clarity, to inform our creative and technical vision.",
+      "services": ["Brand Analysis & Strategy", "Visual Identity Positioning"]
+    },
+    {
+      "category": "DESIGN",
+      "description": "We create cutting-edge, seamless brand experiences, digital products, and scalable design systems that feel natural, intuitive, and engaging for real people.",
+      "services": [
+        "Branding & Rebranding",
+        "User Experience (UX) & User Research",
+        "Wireframing",
+        "Prototyping",
+        "Design System",
+        "User Interface (UI)",
+        "Interaction Design & Micro-animations",
+        "Usability Testing"
+      ]
+    },
+    {
+      "category": "DEVELOPMENT",
+      "description": "We build robust, custom digital solutions where innovative technology and design integrate perfectly for high-performance results.",
+      "services": [
+        "React / Vue.js / Next.js Development",
+        "NodeJS / Nest / Laravel Development",
+        "React Native / Flutter Mobile Development",
+        "CMS - Strapi · Directus · Contentful · DatoCMS",
+        "E-commerce Development - Medusa · CommerceLayer",
+        "API & Integrations"
+      ]
+    }
+  ],
+  "workShowcase": {
+    "title": "WANNA SEE SOME GOOD WORK?",
+    "projects": [
+      {
+        "title": "Rhexo - AI Fitness Coaching",
+        "subtitle": "Branding · UX/UI · Development",
+        "video": "/assets/Pictures/Projects/Rhexo/Rhexo_Mock_App.mp4",
+        "href": "work/rhexo",
+        "x": -9,
+        "y": -10,
+        "w": 120,
+        "h": 110
+      },
+      {
+        "title": "Éclavie - Premium cosmetics brand",
+        "subtitle": "Strategy · Design · E-commerce",
+        "video": "/assets/Pictures/Projects/Éclavie/Landing_Page_Eclavie_Header.mp4",
+        "href": "work/eclavie",
+        "x": 0,
+        "y": 0,
+        "w": 110,
+        "h": 100
+      },
+      {
+        "title": "Nexara - Digital & e-doctor appt",
+        "subtitle": "Branding · UX/UI Design · Mobile App Development",
+        "video": "/assets/Pictures/Projects/Nexara/Nexara_App_Header.mp4",
+        "href": "work/nexara",
+        "x": -5,
+        "y": 0,
+        "w": 110,
+        "h": 100
+      },
+      {
+        "title": "Echov - Premium tech retail",
+        "subtitle": "Strategy · UX/UI · Development",
+        "video": "/assets/Pictures/Projects/Echov/Echov_Header_Laptop.mp4",
+        "href": "work/echov",
+        "x": -12,
+        "y": 0,
+        "w": 125,
+        "h": 120
+      }
+    ]
+  },
+  "iconicMove": {
+    "headline": "YOUR MOVE. LET'S MAKE IT ICONIC.",
+    "button": {
+      "label": "Let's Talk",
+      "href": "/contact"
+    }
+  },
+  "footer": {
+    "logo": "/assets/Logo/Logo_text_reverse.svg",
+    "followUs": {
+      "title": "FOLLOW US:",
+      "links": [
+        {
+          "label": "Linkedin",
+          "href": "https://www.linkedin.com/company/vorlyxagency"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/vorlyx.agency"
+        },
+        { "label": "Facebook", "href": "https://www.facebook.com/vorlyxagency" }
+      ]
+    },
+    "emailUs": {
+      "title": "EMAIL US:",
+      "links": [
+        { "label": "New Business", "href": "mailto:hello@vorlyx.com" },
+        { "label": "Careers", "href": "mailto:jobs@vorlyx.com" }
+      ]
+    },
+    "newsletter": {
+      "text": "Sign up for new stories",
+      "placeholder": "E-mail"
+    },
+    "navLinks": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "CONTACT", "href": "/contact" }
+    ],
+    "copyright": "© 2025 Vorlyx agency"
+  }
+}

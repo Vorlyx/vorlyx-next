@@ -1,0 +1,122 @@
+{
+  "navigation": {
+    "logo": "/assets/Logo/Logo_text_reverse_BW.svg",
+    "links": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "NEWS", "href": "/news" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "title": "NEWS",
+    "subtitle": "Unfiltered: company chapters, design thoughts, dev wins, and everything in\u00A0between."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "date": "OCT 2025",
+      "headline": "AI: The Invisible Conductor of Our\nDigital Masterpieces",
+      "subHeadline": "How Vorlyx Orchestrates\nInnovation That Sings",
+      "image": "/assets/Pictures/News/AI.png",
+
+      "imagePositionLg": "center top",
+      "imageScaleLg": 1,
+      "imageOffsetXLg": 0,
+      "imageOffsetYLg": 0
+    },
+
+    {
+      "id": 2,
+      "date": "NOV 2025",
+      "headline": "Humans Beat AI",
+      "subHeadline": "Why Corporations Are Rehiring–\nVorlyx Never Left.",
+      "image": "/assets/Pictures/News/Humans Beat AI.jpg",
+      "imagePosition": "center",
+      "imageScale": 1.5,
+      "imageOffsetX": -80,
+      "imageOffsetY": 0
+    },
+    {
+      "id": 3,
+      "date": "DEC 2025",
+      "headline": "Vorlyx Levels Up:",
+      "subHeadline": "New Year Refresh, Client Wins,\nand Holiday Vibes!",
+      "image": "/assets/Pictures/News/Vorlyx Levels Up.jpg",
+      "imagePosition": "center",
+      "imageScale": 1.9,
+      "imageOffsetX": 0,
+      "imageOffsetY": 0
+    },
+    {
+      "id": 4,
+      "date": "FEB 2026",
+      "headline": "2026 UX Shift: Explainable\nAI Agentic Interfaces",
+      "subHeadline": "Vorlyx Is Already Living This Future",
+      "image": "/assets/Pictures/News/UX.png",
+
+      "imagePositionLg": "center",
+      "imageScaleLg": 1,
+      "imageOffsetXLg": 0,
+      "imageOffsetYLg": 0
+    },
+    {
+      "id": 5,
+      "date": "MAY 2026",
+      "headline": "Building the Future of Luxury\nRetail in 2026",
+      "subHeadline": "A sophisticated AI-managed e-commerce platform with a striking sci-fi",
+      "image": "/assets/Pictures/News/Luxury Retail_L.png",
+
+      "imagePositionLg": "center",
+      "imageScaleLg": 1,
+      "imageOffsetXLg": 0,
+      "imageOffsetYLg": 0
+    }
+  ],
+  "seeMore": {
+    "label": "See More"
+  },
+  "iconicMove": {
+    "headline": "YOUR MOVE. LET'S MAKE IT ICONIC.",
+    "button": {
+      "label": "Let's Talk",
+      "href": "/contact"
+    }
+  },
+  "footer": {
+    "logo": "/assets/Logo/Logo_text_reverse.svg",
+    "followUs": {
+      "title": "FOLLOW US:",
+      "links": [
+        {
+          "label": "Linkedin",
+          "href": "https://www.linkedin.com/company/vorlyxagency"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/vorlyx.agency"
+        },
+        { "label": "Facebook", "href": "https://www.facebook.com/vorlyxagency" }
+      ]
+    },
+    "emailUs": {
+      "title": "EMAIL US:",
+      "links": [
+        { "label": "New Business", "href": "mailto:hello@vorlyx.com" },
+        { "label": "Careers", "href": "mailto:jobs@vorlyx.com" }
+      ]
+    },
+    "newsletter": {
+      "text": "Sign up for new stories",
+      "placeholder": "E-mail"
+    },
+    "navLinks": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "CONTACT", "href": "/contact" }
+    ],
+    "copyright": "© 2025 Vorlyx agency"
+  }
+}

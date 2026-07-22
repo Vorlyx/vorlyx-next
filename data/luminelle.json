@@ -1,0 +1,233 @@
+{
+  "seo": {
+    "title": "Luminelle – Timeless French Luxury Watch E-Commerce | Vorlyx",
+    "description": "How Vorlyx crafted Luminelle's luxurious e-commerce experience — a seamless digital journey blending Parisian sophistication with modern refinement in horology.",
+    "keywords": [
+      "Luminelle",
+      "luxury watches",
+      "French horology",
+      "e-commerce design",
+      "UX/UI design",
+      "luxury brand",
+      "Vorlyx case study"
+    ],
+    "ogImage": "/og/Luminelle_og.png",
+    "canonical": "https://vorlyx.com/work/luminelle",
+    "slug": "luminelle",
+    "category": "Luxury E-Commerce & Horology",
+    "datePublished": "2024-11-15",
+    "technologies": [
+      "UX/UI Design",
+      "Art Direction",
+      "Web Development",
+      "Mobile App Development",
+      "E-Commerce"
+    ]
+  },
+
+  "navigation": {
+    "logo": "/assets/Logo/Logo_text_fullfil.svg",
+    "links": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "NEWS", "href": "/news" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "title": "LUMINELLE",
+    "media": "/assets/Pictures/Projects/Luminelle/01_Luminelle_header.jpg"
+  },
+  "info": {
+    "about": "Luminelle embodies timeless French luxury in horology — elegant, understated timepieces that blend Parisian sophistication with modern refinement. We crafted a seamless, luxurious e-commerce experience that mirrors the brand's heritage of pure elegance and attention to detail. Our focus was to create an intuitive, visually captivating digital journey where every interaction feels premium, inspiring confidence and desire — from effortless product discovery to a smooth, secure checkout.",
+    "whatWeDid": [
+      "· UX/UI Design · Art Direction & Visual Identity Integration",
+      "· Web & Mobile App Development",
+      "· E-commerce Functionality & Optimization"
+    ],
+    "technology": [
+      "· Next.js / React · Tailwind CSS / Custom Design System",
+      "· Commerce Layer / Headless CMS · Vercel · Algolia",
+      "· Authentication · GraphQL / REST APIs"
+    ]
+  },
+  "gridItems": [
+    {
+      "id": 1,
+      "label": "LOGO",
+      "type": "video",
+      "src": "/assets/Pictures/Projects/Luminelle/Luminelle_Logo.mp4",
+      "x": 10,
+      "y": 10,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "id": 2,
+      "label": "COLOR",
+      "type": "video",
+      "src": "/assets/Pictures/Projects/Luminelle/Luminelle_Pallete.mp4",
+      "x": 3,
+      "y": 2,
+      "w": 95,
+      "h": 95
+    },
+    {
+      "id": 3,
+      "label": "LAPTOP MOCK ANIMATE",
+      "type": "video",
+      "src": "/assets/Pictures/Projects/Luminelle/Luminelle_MCB.mp4",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100,
+      "heightPx": 700,
+      "mx": 0,
+      "my": 0,
+      "mw": 100,
+      "mh": 100,
+      "mheightPx": 350,
+      "px": 0,
+      "py": 0,
+      "pw": 100,
+      "ph": 100,
+      "pheightPx": 450,
+      "ax": -15,
+      "ay": -8,
+      "aw": 125,
+      "ah": 125,
+      "aheightPx": 500
+    },
+    {
+      "id": 4,
+      "label": "STATIC PIC BILLBOARD",
+      "type": "image",
+      "src": "/assets/Pictures/Projects/Luminelle/03_Luminelle_window.jpg",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100,
+      "heightPx": 900,
+      "mx": 0,
+      "my": 0,
+      "mw": 100,
+      "mh": 100,
+      "mheightPx": 300,
+      "px": 0,
+      "py": 0,
+      "pw": 100,
+      "ph": 100,
+      "pheightPx": 600,
+      "ax": 0,
+      "ay": 0,
+      "aw": 100,
+      "ah": 100,
+      "aheightPx": 600
+    },
+    {
+      "id": 5,
+      "label": "STATIC PIC MOBILE APP",
+      "type": "image",
+      "src": "/assets/Pictures/Projects/Luminelle/04_Luminelle_phone.jpg",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 110
+    },
+    {
+      "id": 6,
+      "label": "ANIMATE MOBILE APP RAW",
+      "type": "video",
+      "src": "/assets/Pictures/Projects/Luminelle/Luminelle_Mobile_Mock_Raw.mp4",
+      "x": 27,
+      "y": 2.5,
+      "w": 43,
+      "h": 95,
+      "containerBg": "#DCD6D2",
+      "borderRadius": 30,
+      "objectFit": "cover",
+      "boxShadow": "0 10px 40px rgba(0, 0, 0, 0.2)"
+    },
+    {
+      "id": 7,
+      "label": "LAPTOP MOCK ANIMATE RAW",
+      "type": "image",
+      "src": "/assets/Pictures/Projects/Luminelle/product_detail.png",
+      "x": 2.5,
+      "y": 4,
+      "w": 95,
+      "h": 108,
+      "heightPx": 700,
+      "borderRadius": 30,
+      "containerBg": "#A19F8A",
+      "mx": 2.5,
+      "my": 3,
+      "mw": 95,
+      "mh": 100,
+      "mheightPx": 270,
+      "ax": 2.5,
+      "ay": 3,
+      "aw": 95,
+      "ah": 100,
+      "aheightPx": 500
+    },
+    {
+      "id": 8,
+      "label": "STATIC PIC BILLBOARD",
+      "type": "image",
+      "src": "/assets/Pictures/Projects/Luminelle/Luminelle_Blue_Square.jpg",
+      "x": -30,
+      "y": -16,
+      "w": 140,
+      "h": 120
+    },
+    {
+      "id": 9,
+      "label": "STATIC PIC ZOOMIN WEB",
+      "type": "image",
+      "src": "/assets/Pictures/Projects/Luminelle/Landing Page Luminelle_Selection.png",
+      "x": 3,
+      "y": 3,
+      "w": 100,
+      "h": 112,
+      "containerBg": "#CFBEB6",
+      "borderRadius": 24
+    },
+    {
+      "id": 10,
+      "label": "APP MOCK ANIMATE RAW",
+      "type": "video",
+      "src": "/assets/Pictures/Projects/Luminelle/App_Mock_Raw.mp4",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    }
+  ],
+  "nextProject": {
+    "name": "RHEXO",
+    "link": "/work/rhexo",
+    "image": "/assets/Pictures/Projects/Rhexo/Screen.png",
+    "x": 0,
+    "y": -220,
+    "w": 100,
+    "h": 700,
+    "heightPx": 260,
+    "mx": -14,
+    "my": -100,
+    "mw": 130,
+    "mh": 360,
+    "mheightPx": 140,
+    "ax": 0,
+    "ay": -130,
+    "aw": 100,
+    "ah": 450,
+    "aheightPx": 180,
+    "px": 0,
+    "py": -180,
+    "pw": 100,
+    "ph": 550,
+    "pheightPx": 220
+  }
+}

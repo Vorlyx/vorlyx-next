@@ -1,0 +1,442 @@
+{
+  "navigation": {
+    "logo": "/assets/Logo/Logo_text_fullfil.svg",
+    "links": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "NEWS", "href": "/news" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "vorlyxText": "/assets/Logo/Vorlyx_W.svg",
+    "video": "/assets/Pictures/Landing page/Vorlyx_Hero_Showreel.mp4"
+  },
+  "section2": {
+    "headline": "THE Vorlyx OF CREATIVE STRATEGISTS.",
+    "vorlyxLogo": "/assets/Logo/Vorlyx_B.svg",
+    "body": "A FULL-SERVICE DESIGN-TECH AGENCY THAT BUILDS BOLDLY. WE RESEARCH, STRATEGIZE, DESIGN, DEVELOP, AND DEPLOY THROUGH USER-CENTERED INNOVATION.",
+    "button": {
+      "label": "Agency",
+      "href": "/agency"
+    }
+  },
+  "section3": {
+    "headline": "WE DESIGN FOR A WORLD THAT SEES FIRST AND ASKS QUESTIONS LATER. VORLYX DELIVERS VISUAL-FIRST SOLUTIONS FOR BRANDS EVERYWHERE, FROM LOCAL HEROES TO GLOBAL ICONS.",
+    "button": {
+      "label": "Work",
+      "href": "/work"
+    },
+    "stickyCards": [
+      {
+        "image": "/assets/Pictures/Projects/Luminelle/01_Luminelle_header.jpg",
+        "projectTitle": "Luminelle",
+        "technologies": "UX/UI",
+        "href": "work/luminelle",
+        "layout": {
+          "mobile": {
+            "media": {
+              "x": -450,
+              "y": 0,
+              "w": 350,
+              "h": 100
+            },
+            "title": {
+              "x": 40,
+              "y": 100,
+              "w": 85,
+              "align": "left"
+            },
+            "tech": {
+              "x": 40,
+              "y": 60,
+              "w": 70,
+              "align": "left"
+            }
+          },
+          "tablet": {
+            "media": {
+              "x": -510,
+              "y": -90,
+              "w": 210,
+              "h": 120
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "air": {
+            "media": {
+              "x": -510,
+              "y": -90,
+              "w": 210,
+              "h": 120
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "desktop": {
+            "media": {
+              "x": -620,
+              "y": -150,
+              "w": 180,
+              "h": 150
+            },
+            "title": {
+              "x": 140,
+              "y": 120,
+              "align": "left",
+              "maxWidth": 520
+            },
+            "tech": {
+              "right": 140,
+              "y": 120,
+              "align": "right",
+              "maxWidth": 420
+            }
+          }
+        }
+      },
+      {
+        "video": "/assets/Pictures/Projects/Rhexo/Rhexo_Mock_App.mp4",
+        "image": "",
+        "projectTitle": "Rhexo",
+        "technologies": "Branding, Development",
+        "href": "work/rhexo",
+        "layout": {
+          "mobile": {
+            "media": {
+              "x": -650,
+              "y": 0,
+              "w": 393,
+              "h": 100
+            },
+            "title": {
+              "x": 40,
+              "y": 100,
+              "w": 85,
+              "align": "left"
+            },
+            "tech": {
+              "x": 40,
+              "y": 60,
+              "w": 70,
+              "align": "left"
+            }
+          },
+          "tablet": {
+            "media": {
+              "x": -800,
+              "y": 0,
+              "w": 250,
+              "h": 100
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "air": {
+            "media": {
+              "x": -820,
+              "y": -90,
+              "w": 300,
+              "h": 120
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "desktop": {
+            "media": {
+              "x": -460,
+              "y": 0,
+              "w": 160,
+              "h": 125
+            },
+            "title": {
+              "x": 140,
+              "y": 120,
+              "align": "left",
+              "maxWidth": 520
+            },
+            "tech": {
+              "right": 140,
+              "y": 120,
+              "align": "right",
+              "maxWidth": 420
+            }
+          }
+        }
+      },
+      {
+        "video": "/assets/Pictures/Projects/Éclavie/Landing_Page_Eclavie_Header.mp4",
+        "image": "",
+        "projectTitle": "Éclavie",
+        "technologies": "UI/UX Design, Branding",
+        "href": "work/eclavie",
+        "layout": {
+          "mobile": {
+            "media": {
+              "x": -400,
+              "y": 0,
+              "w": 410,
+              "h": 100
+            },
+            "title": {
+              "x": 40,
+              "y": 100,
+              "w": 85,
+              "align": "left"
+            },
+            "tech": {
+              "x": 40,
+              "y": 60,
+              "w": 70,
+              "align": "left"
+            }
+          },
+          "tablet": {
+            "media": {
+              "x": -485,
+              "y": -310,
+              "w": 250,
+              "h": 145
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "air": {
+            "media": {
+              "x": -350,
+              "y": -90,
+              "w": 280,
+              "h": 120
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "desktop": {
+            "media": {
+              "x": -1150,
+              "y": -70,
+              "w": 240,
+              "h": 120
+            },
+            "title": {
+              "x": 140,
+              "y": 120,
+              "align": "left",
+              "maxWidth": 520
+            },
+            "tech": {
+              "right": 140,
+              "y": 120,
+              "align": "right",
+              "maxWidth": 420
+            }
+          }
+        }
+      },
+      {
+        "video": "/assets/Pictures/Projects/Nexara/Nexara_App_Header.mp4",
+        "image": "",
+        "projectTitle": "Nexara",
+        "technologies": "UI/UX Design, Branding",
+        "href": "work/nexara",
+        "layout": {
+          "mobile": {
+            "media": {
+              "x": -320,
+              "y": -150,
+              "w": 300,
+              "h": 120,
+              "rotate": 0
+            },
+            "title": {
+              "x": 40,
+              "y": 100,
+              "w": 85,
+              "align": "left"
+            },
+            "tech": {
+              "x": 40,
+              "y": 60,
+              "w": 70,
+              "align": "left"
+            }
+          },
+          "tablet": {
+            "media": {
+              "x": -1080,
+              "y": -200,
+              "w": 310,
+              "h": 115
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "air": {
+            "media": {
+              "x": -660,
+              "y": -90,
+              "w": 280,
+              "h": 120
+            },
+            "title": {
+              "x": 100,
+              "y": 150,
+              "w": 60,
+              "align": "left"
+            },
+            "tech": {
+              "x": 100,
+              "y": 100,
+              "w": 50,
+              "align": "left"
+            }
+          },
+          "desktop": {
+            "media": {
+              "x": -1630,
+              "y": -200,
+              "w": 300,
+              "h": 165
+            },
+            "title": {
+              "x": 140,
+              "y": 120,
+              "align": "left",
+              "maxWidth": 520
+            },
+            "tech": {
+              "right": 140,
+              "y": 120,
+              "align": "right",
+              "maxWidth": 420
+            }
+          }
+        }
+      }
+    ]
+  },
+  "section4": {
+    "capabilities": {
+      "title": "DISCIPLINES WE OWN.",
+      "body": "We design and build brand identities, visual systems, digital platforms, high-performance e-commerce, custom websites, and mobile apps that drive real growth and lasting impact.",
+      "button": {
+        "label": "Capabilities",
+        "href": "/services"
+      }
+    },
+    "iconicMove": {
+      "headline": "YOUR MOVE. LET'S MAKE IT ICONIC.",
+      "button": {
+        "label": "Let's Talk",
+        "href": "/contact"
+      }
+    }
+  },
+  "footer": {
+    "logo": "/assets/Logo/Logo_text_reverse.svg",
+    "followUs": {
+      "title": "FOLLOW US:",
+      "links": [
+        {
+          "label": "Linkedin",
+          "href": "https://www.linkedin.com/company/vorlyxagency"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/vorlyx.agency"
+        },
+        { "label": "Facebook", "href": "https://www.facebook.com/vorlyxagency" }
+      ]
+    },
+    "emailUs": {
+      "title": "EMAIL US:",
+      "links": [
+        { "label": "New Business", "href": "mailto:hello@vorlyx.com" },
+        { "label": "Careers", "href": "mailto:jobs@vorlyx.com" }
+      ]
+    },
+    "newsletter": {
+      "text": "Sign up for new stories",
+      "placeholder": "E-mail"
+    },
+    "navLinks": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "CONTACT", "href": "/contact" }
+    ],
+    "copyright": "© 2025 Vorlyx agency"
+  }
+}

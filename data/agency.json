@@ -1,0 +1,114 @@
+{
+  "navigation": {
+    "logo": "/assets/Logo/Logo_text_reverse_BW.svg",
+    "links": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "NEWS", "href": "/news" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "headline": "THE VORLYX OF CREATIVE STRATEGISTS.",
+    "button": {
+      "label": "Let's Talk",
+      "href": "/contact"
+    }
+  },
+  "creativeStrategists": {
+    "title": "CREATIVE STRATEGISTS.",
+    "body": "WE FORGE UNBREAKABLE BRANDS THAT DOMINATE MARKETS AND REDEFINE INDUSTRIES THROUGH RUTHLESS STRATEGY AND FEARLESS DESIGN."
+  },
+  "teamMembers": [
+    {
+      "name": "NEGAR MAZAHERI",
+      "title": "CHIEF CREATIVE OFFICER",
+      "image": "/assets/Pictures/Landing page/N_M_BW.jpg",
+      "bio": [
+        "Negar Mazaheri serves as Chief Creative Officer at Vorlyx Agency. A dedicated creative leader and designer, she infuses a global sensibility into contemporary digital design—drawing from diverse cultural influences to create work that connects deeply with varied audiences.",
+        "With a keen entrepreneurial spirit, Negar elevates Vorlyx's creative output, forging a signature blend of artistic expression and practical innovation.",
+        "Her uncommon combination of imagination, strategic insight, and professional acumen demonstrates that exceptional design forms the foundation of successful business. She holds a Bachelor of Arts degree earned in 2017 and maintains a strong passion for the competitive arena, regularly participating in design exhibitions and industry events worldwide."
+      ]
+    },
+    {
+      "name": "MIR ABO",
+      "title": "CHIEF EXECUTIVE OFFICER",
+      "image": "/assets/Pictures/Landing page/M_A_BW.jpg",
+      "bio": [
+        "Mir Abo is the Founder and Chief Executive Officer of Vorlyx Agency. A seasoned creative leader with over 15 years of experience, he guides the agency's vision across diverse environments—from dynamic tech landscapes to international offshore projects—blending bold design with strategic precision.",
+        "Trained in architecture (Bachelor of Architectural Design, 2015), Mir brings structural discipline and spatial intuition to digital branding, user experience, and product innovation, creating solutions that are intuitive, enduring, and commercially impactful.",
+        "An active member of the American Advertising Federation (AAF), he contributes to advancing industry standards. Driven by collaboration and excellence, Mir continues to position Vorlyx as an agency where thoughtful creativity powers meaningful business success."
+      ]
+    }
+  ],
+  "doctrine": [
+    {
+      "number": "01",
+      "headline": "We don't chase trends—we set the pace",
+      "description": "Vision first, ego never. We trust our instincts and outrun the rest."
+    },
+    {
+      "number": "02",
+      "headline": "Impossible is just the starting line",
+      "description": "We hunt the hardest problems, break them open, and build |something no one saw coming."
+    },
+    {
+      "number": "03",
+      "headline": "No titles, only talent",
+      "description": "The best idea wins, always. Rank doesn't talk here—results do."
+    },
+    {
+      "number": "04",
+      "headline": "We fail fast, win faster",
+      "description": "We test, shatter, iterate, and ship things that actually move the needle."
+    },
+    {
+      "number": "05",
+      "headline": "This isn't a company—it's a crew",
+      "description": "We fight together, celebrate together, and refuse to be ordinary—ever."
+    }
+  ],
+  "iconicMove": {
+    "headline": "YOUR MOVE. LET'S MAKE IT ICONIC.",
+    "button": {
+      "label": "Let's Talk",
+      "href": "/contact"
+    }
+  },
+  "footer": {
+    "logo": "/assets/Logo/Logo_text_reverse.svg",
+    "followUs": {
+      "title": "FOLLOW US:",
+      "links": [
+        {
+          "label": "Linkedin",
+          "href": "https://www.linkedin.com/company/vorlyxagency"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/vorlyx.agency"
+        },
+        { "label": "Facebook", "href": "https://www.facebook.com/vorlyxagency" }
+      ]
+    },
+    "emailUs": {
+      "title": "EMAIL US:",
+      "links": [
+        { "label": "New Business", "href": "mailto:hello@vorlyx.com" },
+        { "label": "Careers", "href": "mailto:jobs@vorlyx.com" }
+      ]
+    },
+    "newsletter": {
+      "text": "Sign up for new stories",
+      "placeholder": "E-mail"
+    },
+    "navLinks": [
+      { "label": "WORK", "href": "/work" },
+      { "label": "AGENCY", "href": "/agency" },
+      { "label": "SERVICES", "href": "/services" },
+      { "label": "CONTACT", "href": "/contact" }
+    ],
+    "copyright": "© 2025 Vorlyx agency"
+  }
+}
