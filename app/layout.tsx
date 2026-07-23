@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
 import ClientProviders from './client-providers'
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Load local Lato font files with all required weights
 const lato = localFont({
@@ -112,8 +114,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${lato.variable} scroll-smooth`} data-scroll-behavior="smooth">
       <body className="font-lato antialiased bg-black text-vorlyx-black overflow-x-hidden">
-        <ClientProviders>{children}</ClientProviders>
-      </body>
+  <ClientProviders>{children}</ClientProviders>
+  <Analytics />
+  <SpeedInsights />
+</body>
     </html>
   )
 }
