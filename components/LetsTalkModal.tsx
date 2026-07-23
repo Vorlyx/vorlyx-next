@@ -230,26 +230,31 @@ export default function LetsTalkModal() {
       />
 
       {/* Modal container */}
-      <div
-        className="fixed inset-0 z-[9999] flex items-end justify-center pointer-events-none"
-        style={{
-          paddingTop: `${currentTopOffset}px`,
-          paddingLeft: `${currentSideInset}px`,
-          paddingRight: `${currentSideInset}px`,
-          paddingBottom: "0px",
-        }}
-      >
-        {/* Modal panel — now uses vorlyx-light-gray background */}
-        <div
-          className="relative w-full h-full bg-vorlyx-light-gray overflow-hidden pointer-events-auto"
-          style={{
-            borderTopLeftRadius: `${currentRadius}px`,
-            borderTopRightRadius: `${currentRadius}px`,
-            transform: isOpen ? "translateY(0)" : "translateY(100%)",
-            transition: `transform 700ms ${easing}`,
-            willChange: "transform",
-          }}
-        >
+<div
+  className={`fixed inset-0 z-[9999] flex items-end justify-center pointer-events-none ${
+    isOpen ? "visible" : "invisible"
+  }`}
+  style={{
+    paddingTop: `${currentTopOffset}px`,
+    paddingLeft: `${currentSideInset}px`,
+    paddingRight: `${currentSideInset}px`,
+    paddingBottom: "0px",
+    transition: "visibility 0s linear",
+    transitionDelay: isOpen ? "0s" : "700ms",
+  }}
+  aria-hidden={!isOpen}
+>
+  {/* Modal panel */}
+  <div
+    className="relative w-full h-full bg-vorlyx-light-gray overflow-hidden pointer-events-auto"
+    style={{
+      borderTopLeftRadius: `${currentRadius}px`,
+      borderTopRightRadius: `${currentRadius}px`,
+      transform: isOpen ? "translateY(0)" : "translateY(105%)",
+      transition: `transform 700ms ${easing}`,
+      willChange: "transform",
+    }}
+  >
           {/* Close button */}
           <button
             onClick={closeModal}
