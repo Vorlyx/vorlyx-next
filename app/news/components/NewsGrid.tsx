@@ -10,6 +10,7 @@ interface Article {
   headline: string;
   subHeadline: string;
   image: string;
+  link?: string;
   // Original laptop/desktop transforms
   imagePositionLg?: string;
   imageScaleLg?: number;
@@ -44,13 +45,11 @@ const IMAGE_WRAPPER_STYLE: React.CSSProperties = { borderRadius: "35px" };
 // Responsive image sizes for the Next.js Image component
 const IMAGE_SIZES = "(max-width: 768px) 100vw, 842px";
 
-/* ─── Pure helper functions (module-scope, no re-creation) ──────────────── */
+/* ─── Pure helper functions ──────────────────────────────────────────────── */
 
-// Build a transform string from offset + scale
 const buildTransform = (x: number, y: number, scale: number): string =>
   `translate(${x}px, ${y}px) scale(${scale})`;
 
-// Split headline/subheadline text by newlines into an array of lines
 const splitByNewline = (text: string): string[] => text.split("\n");
 
 /* ─── Types for pre-computed derived data ───────────────────────────────── */
@@ -116,7 +115,7 @@ export default function NewsGrid({ articles, seeMore }: NewsGridProps) {
   );
 
   /* ── See More button state ───────────────────────────────────────────── */
-  const isSeeMoreActive = useMemo(
+  const shouldShowSeeMore = useMemo(
     () => articles.length > INITIAL_VISIBLE_COUNT && !isExpanded,
     [articles.length, isExpanded]
   );
@@ -143,19 +142,15 @@ export default function NewsGrid({ articles, seeMore }: NewsGridProps) {
               laptopObjectPosition,
             } = d;
 
-            // Build the image style — spread mobile defaults, override with laptop values if applicable
             const imageStyle: React.CSSProperties = {
               objectPosition: isLaptop ? laptopObjectPosition : mobileObjectPosition,
               transform: isLaptop ? laptopTransform : mobileTransform,
               transformOrigin: "center center",
             };
 
-            return (
-              <div
-                key={article.id}
-                className="bg-white shadow-sm overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 w-full lg:w-[700px] mx-auto h-full"
-                style={CARD_STYLE}
-              >
+            // Card content (shared between linked and unlinked versions)
+            const cardContent = (
+              <>
                 {/* Text */}
                 <div className="flex flex-col pt-8 px-6 md:px-8 lg:pt-[60px] lg:px-[50px] lg:h-[430px]">
                   <p className="font-lato text-[14px] sm:text-[16px] md:text-[20px] lg:text-[25px] font-light text-[#000000] mb-6 md:mb-8 uppercase tracking-wide">
@@ -190,22 +185,54 @@ export default function NewsGrid({ articles, seeMore }: NewsGridProps) {
                     src={article.image}
                     alt={article.headline}
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-center transition-transform duration-500"
                     sizes={IMAGE_SIZES}
                     style={imageStyle}
                   />
                 </div>
+              </>
+            );
+
+            // Shared className for both link and div versions
+            const cardClassName =
+              "bg-white shadow-sm overflow-hidden flex flex-col hover:shadow-xl transition-all duration-300 w-full lg:w-[700px] mx-auto h-full group cursor-pointer";
+
+            // If article has a link, wrap in <a> tag opening in new tab
+            if (article.link) {
+              return (
+                <a
+                  key={article.id}
+                  href={article.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cardClassName}
+                  style={CARD_STYLE}
+                  aria-label={`Read: ${article.headline.replace(/\n/g, " ")}`}
+                >
+                  {cardContent}
+                </a>
+              );
+            }
+
+            // Otherwise render as regular div (no link)
+            return (
+              <div
+                key={article.id}
+                className="bg-white shadow-sm overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 w-full lg:w-[700px] mx-auto h-full"
+                style={CARD_STYLE}
+              >
+                {cardContent}
               </div>
             );
           })}
         </div>
 
-        {seeMore && (
+        {/* See More button — only shows when there are hidden articles */}
+        {seeMore && shouldShowSeeMore && (
           <div className="flex justify-center mt-12 md:mt-16 lg:mt-20">
             <IconicCtaLink
               label={seeMore.label}
               onClick={handleSeeMore}
-              disabled={!isSeeMoreActive}
             />
           </div>
         )}
