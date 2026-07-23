@@ -322,14 +322,15 @@ export default function EclavieProjectMediaGrid({
               }}
             >
               <Image
-                src={item.src}
-                alt={item.label}
-                fill
-                unoptimized={isGif}
-                className={
-                  objectFit === "contain" ? "object-contain" : "object-cover"
-                }
-              />
+  src={item.src}
+  alt={item.label}
+  fill
+  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
+  unoptimized={isGif}
+  className={
+    objectFit === "contain" ? "object-contain" : "object-cover"
+  }
+/>
             </div>
           )}
         </div>

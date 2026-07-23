@@ -337,16 +337,17 @@ export default function ProjectMediaGrid({ gridItems }: ProjectMediaGridProps) {
                   style={mediaBoxStyle}
                 >
                   <Image
-                    src={item.src}
-                    alt={item.label}
-                    fill
-                    className={
-                      objectFit === "contain"
-                        ? "object-contain"
-                        : "object-cover"
-                    }
-                    unoptimized
-                  />
+  src={item.src}
+  alt={item.label}
+  fill
+  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
+  className={
+    objectFit === "contain"
+      ? "object-contain"
+      : "object-cover"
+  }
+  unoptimized
+/>
                 </div>
               </div>
             ) : (
@@ -359,15 +360,16 @@ export default function ProjectMediaGrid({ gridItems }: ProjectMediaGridProps) {
                   style={mediaBoxStyle}
                 >
                   <Image
-                    src={item.src}
-                    alt={item.label}
-                    fill
-                    className={
-                      objectFit === "contain"
-                        ? "object-contain"
-                        : "object-cover"
-                    }
-                  />
+  src={item.src}
+  alt={item.label}
+  fill
+  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
+  className={
+    objectFit === "contain"
+      ? "object-contain"
+      : "object-cover"
+  }
+/>
                 </div>
               </div>
             )}
