@@ -116,7 +116,8 @@ export default function HeroSection({ vorlyxText, video }: HeroSectionProps) {
       <section
         ref={heroRef}
         id="hero-section"
-        className="relative w-full max-w-[1920px] mx-auto min-h-screen bg-[#171717] overflow-hidden select-none md:cursor-none"
+        className="relative w-full max-w-[1920px] mx-auto bg-[#171717] overflow-hidden select-none md:cursor-none"
+  style={{ minHeight: "100svh", height: "100svh" }}
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
